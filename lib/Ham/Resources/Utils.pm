@@ -13,11 +13,11 @@ on Earth (through coordinates or grid locator), and Sunrise, Sunset and Midday t
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my %coordinates = (
 		long_1 	=> "",
@@ -184,7 +184,7 @@ sub data_constructor {
 
 
 	my %sun_departure = cicle_sun($self, $coord{lat_1_dec}, $coord{long_1_dec}, $date, "_departure");
-	my %sun_arrive = cicle_sun($self, $coord{lat_1_dec}, $coord{long_1_dec}, $date, "_arrive");
+	my %sun_arrive = cicle_sun($self, $coord{lat_2_dec}, $coord{long_2_dec}, $date, "_arrive");
 
 	%coord = (  %coord,
 					distance_km 	=> $km,
@@ -725,7 +725,7 @@ L<http://search.cpan.org/dist/Ham-Resources-Utils/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012 CJUAN.
+Copyright 2012-2016 CJUAN.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

@@ -4,3 +4,5 @@ Revision history for Ham-Resources-Utils
         First version.
 0.02	07-10-2012/13.57
 	Add internal subs in POD.
+0.03	11-23-2016/13.48
+	Fix problem with cicle_sun function

@@ -20,3 +20,4 @@ ok( $degrees[1] ==  2.12	, 'loc2degree: minutes ok');
 
 
 done_testing();
+

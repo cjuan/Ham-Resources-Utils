@@ -22,3 +22,4 @@ ok( $sexag{"long_dec"} =~ /-2.183/		, 'longitude ok');
 
 
 done_testing();
+

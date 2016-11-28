@@ -19,3 +19,4 @@ ok( $compass eq 'NbW',		'compass conversion completed');
 
 
 done_testing();
+

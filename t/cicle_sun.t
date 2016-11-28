@@ -25,3 +25,4 @@ ok( $sun{"sunset"} eq "19h 45m"		, 'sunset calculation');
 ok( $sun{"midday"} eq "12h 12m"		, 'midday calculation');
 
 done_testing();
+

@@ -20,3 +20,4 @@ ok( uc($loc) eq "JN11CJ"		, 'locator ok');
 
 
 done_testing();
+

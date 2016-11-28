@@ -19,3 +19,4 @@ ok( $degree_sexag == -15.7	, 'dec2sexag ok');
 
 
 done_testing();
+
